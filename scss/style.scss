@@ -107,6 +107,7 @@ background: linear-gradient(130.68deg, #414141 0%, #2D2D2D 100.52%);
 }
 
 .SECTION {
+  margin-bottom: 150px;
 }
 .service {
 		&__inner {
@@ -163,15 +164,14 @@ object-fit: contain;
 
 
 .about{
-  margin-top: 155px;
   display: flex;
- 
 }
 
 .about {
   background-image: url(../images/content/bg.png);
   background-repeat: no-repeat;
   background-position: top center;
+  
 		&__inner {
       display: flex;
       flex-direction: column;
@@ -213,7 +213,6 @@ object-fit: contain;
     }
 
     .about-box-img {
-     
       width: 272px;
       height: 320px;
     }
@@ -240,6 +239,18 @@ object-fit: contain;
       padding: 29px 29px 29px;
     }
   }
+
+  .portfolio {
+background: linear-gradient(101.56deg, #2C2C2C 1.56%, #1C1C1C 95.55%);
+    &__title{
+      text-align: center;
+    }
+		&__info {}
+		&__info-text {}
+		&__title {}
+		&__text {}
+   
+}
 
 
 
